@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏪 Retail Analytics End-to-End con Microsoft Fabric
+# Retail Analytics End-to-End con Microsoft Fabric
 
 **Portfolio project para la certificación DP-600 — Fabric Analytics Engineer Associate**
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 📖 ¿Qué es este proyecto?
+## ¿Qué es este proyecto?
 
 Un sistema completo de análisis de datos retail construido sobre **Microsoft Fabric**, que combina cuatro cosas al mismo tiempo:
 
@@ -26,7 +26,7 @@ Todo sobre datos reales de un retailer británico (~1 millón de transacciones).
 
 ---
 
-## 🎯 ¿Para qué sirve?
+## ¿Para qué sirve?
 
 Este proyecto tiene tres objetivos:
 
@@ -36,7 +36,7 @@ Este proyecto tiene tres objetivos:
 
 ---
 
-## 🧩 Cómo funciona (explicación simple)
+## Cómo funciona (explicación simple)
 
 Imaginate que tenés una tienda de regalos con datos que llegan de dos formas distintas:
 
@@ -88,7 +88,7 @@ Este proyecto procesa **los dos tipos** en paralelo:
 
 ---
 
-## 🏗️ Arquitectura y decisiones técnicas
+## Arquitectura y decisiones técnicas
 
 **Patrón utilizado**: Lambda simplificado — dos "carriles" de datos (batch y streaming) que convergen en la capa de consumo.
 
@@ -110,7 +110,7 @@ Las decisiones justificadas (por qué lakehouse en vez de warehouse, por qué Di
 
 ---
 
-## 📚 Módulos DP-600 cubiertos
+## Módulos DP-600 cubiertos
 
 | # | Módulo | Cómo se aplica |
 |:-:|---|---|
@@ -129,7 +129,7 @@ Los módulos no cubiertos (warehouse, dataflows, CI/CD, RLS) están explicados e
 
 ---
 
-## 📂 Estructura del repo
+## Estructura del repo
 
 ```
 proyecto-dp600-retail/
@@ -161,7 +161,7 @@ proyecto-dp600-retail/
 
 ---
 
-## 🔧 Cómo reproducir el proyecto
+## Cómo reproducir el proyecto
 
 ### Prerrequisitos
 
@@ -190,7 +190,7 @@ proyecto-dp600-retail/
 
 ---
 
-## 🐛 Hallazgos de debugging (lo que más aprendí)
+## Hallazgos de debugging (lo que más aprendí)
 
 Durante la implementación aparecieron **tres errores no triviales**. Los documento porque el proceso de encontrarlos y resolverlos fue el aprendizaje más valioso del proyecto — más que seguir la guía sin problemas.
 
