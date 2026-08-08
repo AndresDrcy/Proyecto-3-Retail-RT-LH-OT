@@ -1,0 +1,61 @@
+# ==============================================
+# .gitignore para proyecto DP-600 Retail Analytics
+# ==============================================
+# IMPORTANTE: la carpeta datos/ NO debe subirse a GitHub
+# (contiene ~226 MB del dataset original y CSVs procesados)
+
+# ---------- Datos ----------
+datos/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# ---------- Notebooks & caché ----------
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------- Power BI ----------
+*.pbix
+*.pbip
+*.pbit
+*.pbids
+
+# ---------- Credenciales & tokens ----------
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Virtualenvs Python ----------
+venv/
+env/
+.venv/
+ENV/
+
+# ---------- Logs ----------
+*.log
+
+# ---------- Nota sobre screenshots ----------
+# Los pares 15-dashboard-realtime.PNG / 15-dashboard-realtime (1Min).PNG
+# y 25-data-agent-conversation.PNG / 25-data-agent-conversation V2.PNG
+# NO son duplicados — son momentos consecutivos (dashboard) o validación
+# cruzada (data agent). Ambos se conservan intencionalmente.
